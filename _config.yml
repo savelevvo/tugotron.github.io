@@ -1,0 +1,8 @@
+title: about
+description: 
+google_analytics: UA-73713015-1
+show_downloads: true
+theme: jekyll-theme-dinky
+
+gems:
+  - jekyll-mentions
