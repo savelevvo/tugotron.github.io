@@ -1,8 +1,45 @@
-title: Main page
-description: Descr
-google_analytics: UA-73713015-1
-show_downloads: false
-theme: jekyll-theme-cayman
+# Site settings
+title_left    : "Some"
+title_right   : "title" # default: ""
+description   : "Minimalist Jekyll theme for technical writing blog."
+keywords      : ""
+url           : https://savelev.dev
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
 
-gems:
-  - jekyll-mentions
+google_analytics: UA-73713015-1
+twitter_username  : ""
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+postshare_enabled : false
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Author settings
+author:
+  name     : "Mike Doe"
+
+plugins:
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
