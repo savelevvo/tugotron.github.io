@@ -1,7 +1,7 @@
 # Site settings
-title_left    : "Some"
-title_right   : "title" # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
+title_left    : "Welcome"
+title_right   : "" # default: ""
+description   : "My blog"
 keywords      : ""
 url           : https://savelev.dev
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
@@ -14,7 +14,7 @@ disqus_shortname  : ""
 postshare_enabled : false
 
 # Build settings
-permalink   : /:year/:title/
+permalink   : /:title/ # /:year/:title/
 markdown    : kramdown
 highlighter : rouge
 
@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "Mike Doe"
+  name     : "Viktor Savelev"
 
 plugins:
   - jekyll-sitemap
@@ -42,4 +42,4 @@ navbar:
   - slug : blog
     title: Blog
 
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "Rakefile", "changelog.md", "script"]
