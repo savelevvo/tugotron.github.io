@@ -156,6 +156,12 @@ hr {
     @extend .pull-right;
   }
 
+  .date-header {
+    color: #555555;
+    font-size: rem(13);
+    margin-bottom: 0.5em;
+  }
+
 }
 
 .post-meta {
