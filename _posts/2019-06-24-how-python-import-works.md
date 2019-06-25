@@ -14,6 +14,7 @@ It’s gathered here to give the reader a deeper understanding of processes taki
 
 When you’re using Python, you’re always in a module. There is no way to write and run Python code outside of a module, even in shell - it uses `__main__` module. That’s why it’s better to understand such a fundamental concept.
 
+<br>
 
 ## Namespaces and modules
 
@@ -28,6 +29,7 @@ Module is a collection of Python definitions and statements that you have access
 Module has it's own namespace that can be seen in `__dict__` property
 
 <script src="https://gist.github.com/tugotron/5702b32b4398675e3af3919f21043d35.js"></script>
+<br>
 
 ## Different ways to initiate import
 
@@ -40,6 +42,7 @@ Normally, the top-level package (the name up till the first dot) is returned, no
 Examples of different `import` statements and what they results after resembled into bytecode
 
 <script src="https://gist.github.com/tugotron/b2f1d9c90c221c7188ce36e1c825a80f.js"></script>
+<br>
 
 ## Steps of import process
 
@@ -91,6 +94,7 @@ class: interpreter executes body of the class, even of nested classes. Defines p
 Simplified example of what Python does to import a module:
 
 <script src="https://gist.github.com/tugotron/aedd0de2704f9791521172a42786f7f7.js"></script>
+<br>
 
 ## Comparison of import statements
 
