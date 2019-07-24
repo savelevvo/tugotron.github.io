@@ -14,7 +14,9 @@ There are three important limitations you need to know in case you’re going to
 
 There is a tricky thing behind `max_replication_slots` and you might face serious problems after re-creation of the instance: 
 
-```2019-07-05 13:16:18 UTC::@:[6165]:PANIC: could not find free replication state, increase max_replication_slots```
+```
+2019-07-05 13:16:18 UTC::@:[6165]:PANIC: could not find free replication state, increase max_replication_slots
+```
 
 New subscription instance just won’t start. Here is what I [found](https://www.postgresql.org/message-id/CAMsr%2BYGA%3Drb2VD7FPR8gXSBhTVYwmXZHM8TR3qtq2Lkpq%2BCkrg%40mail.gmail.com) on postgresql forums:
 
