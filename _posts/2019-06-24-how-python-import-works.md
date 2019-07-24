@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "How Python import works"
+title: "Python: How import works"
 comments: true
-description: "This article is not an original description of import process. Best parts of descriptions from different sources are combined here, so it might be considered as a summary."
+description: "This article is a summary containing the best parts of descriptions from different sources. It’s gathered here to give a reader a deeper understanding of processes taking place during import and discover what’s behind such common statement as import. When you’re using Python, you’re always in a module - there is no way to write and run Python code outside of a module, even in shell. That’s why it’s better to understand such a fundamental concept."
 keywords: "python, import"
 ---
 
